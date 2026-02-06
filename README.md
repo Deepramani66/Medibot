@@ -26,3 +26,5 @@ pip install -r requirement.txt
 '''bash 
 python3 app.py
 '''
+
+## For running flask application run 'python3 app.py' and for streamlit run 'stremlit run app1.py'
