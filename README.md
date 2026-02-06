@@ -28,3 +28,8 @@ python3 app.py
 '''
 
 ## For running flask application run 'python3 app.py' and for streamlit run 'stremlit run app1.py'
+
+Output of flask based application
+
+<img width="1470" height="956" alt="Screenshot 2026-02-06 at 10 10 41 PM" src="https://github.com/user-attachments/assets/c091efc3-056c-4489-a76b-32bf85ca80af" />
+
