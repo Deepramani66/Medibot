@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical AI Assistant</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="bot-info">
+                    <div class="bot-avatar">
+                        <img src="https://cdn-icons-png.flaticon.com/512/387/387569.png" alt="Medical AI">
+                    </div>
+                    <div class="bot-details">
+                        <h3>Medical AI Assistant</h3>
+                        <p>Powered by DeepSeek-R1 & Medical Knowledge Base</p>
+                    </div>
+                </div>
+                <div class="status-indicator">
+                    <div class="online-dot"></div>
+                    <span>Online</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Chat Messages -->
+        <div class="chat-messages" id="chatMessages">
+            <!-- Welcome message -->
+            <div class="welcome-message">
+                <h4>Welcome to Medical AI Assistant! 👨‍⚕️</h4>
+                <p>I'm here to help with medical questions, symptom analysis, and health information.</p>
+                <div class="capabilities">
+                    <span class="capability-tag">Symptom Checker</span>
+                    <span class="capability-tag">Medical Advice</span>
+                    <span class="capability-tag">Drug Information</span>
+                    <span class="capability-tag">Health Tips</span>
+                    <span class="capability-tag">First Aid</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Input Area -->
+        <div class="chat-input-area">
+            <form id="messageForm" class="input-group">
+                <input 
+                    type="text" 
+                    id="messageInput" 
+                    class="message-input" 
+                    placeholder="Type your medical question here..." 
+                    autocomplete="off" 
+                    required
+                >
+                <button type="submit" id="sendButton" class="send-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/script.js"></script>
+</body>
+</html>
